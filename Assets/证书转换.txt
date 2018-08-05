@@ -1,0 +1,10 @@
+openssl pkcs12 -nocerts -nodes -in 20060400000491004.p12 -out 20060400000491004.pem
+
+openssl x509 -inform DER -in allinpay-pdsDev.cer -out allinpay-pdsDev.pem
+
+
+cd /mnt/g
+cd 21Go/GoPay/KendoPay/Assets
+
+openssl rsa -in prkey.key -out prkey.pem
+openssl rsa -in pbkey.key -out pbkey.pem
