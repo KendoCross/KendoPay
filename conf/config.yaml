@@ -1,5 +1,5 @@
 #dev | test | beta | prod
-APP_MODE: dev
+APP_MODE: prod
 APP_PORT: 12345
 GRPC_PORT: 54321
 LOG_FILE: /var/log/kendo/ddd.log
