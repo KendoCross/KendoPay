@@ -1,6 +1,6 @@
 #dev | test | beta | prod
 APP_MODE: prod
-APP_PORT: 12345
+APP_PORT: 12369
 GRPC_PORT: 8008
 LOG_FILE: /var/log/kendo/ddd.log
 #K8S配置相关
